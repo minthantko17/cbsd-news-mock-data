@@ -1,179 +1,183 @@
 {
-    id: 1,
-    title: "Global Markets Rally Amid Economic Optimism",
-    category: "Finance",
-    reporter: "Alice Johnson",
-    newsDateTime: new Date("2025-08-15T08:30:00Z"),
-    description: "Stocks rise globally on strong economic indicators.",
-    content: "The global stock market experienced a significant rally today...",
-    image: "https://example.com/news1.jpg",
-    fakeCount: 2,
-    notFakeCount: 15,
-    comments: [
+    "news": [
       {
-        id: Date.now(),
-        newsId: 1,
-        author: "Mark Lee",
-        content: "Good news for investors!",
-        image: "https://example.com/user1.jpg",
-        voteType: "not-fake",
-        commentDateTime: new Date("2025-08-15T09:00:00Z")
+        id: 1,
+        title: "Global Markets Rally Amid Economic Optimism",
+        category: "Finance",
+        reporter: "Alice Johnson",
+        newsDateTime: new Date("2025-08-15T08:30:00Z"),
+        description: "Stocks rise globally on strong economic indicators.",
+        content: "The global stock market experienced a significant rally today...",
+        image: "https://example.com/news1.jpg",
+        fakeCount: 2,
+        notFakeCount: 15,
+        comments: [
+          {
+            id: Date.now(),
+            newsId: 1,
+            author: "Mark Lee",
+            content: "Good news for investors!",
+            image: "https://example.com/user1.jpg",
+            voteType: "not-fake",
+            commentDateTime: new Date("2025-08-15T09:00:00Z")
+          },
+          {
+            id: Date.now() + 1,
+            newsId: 1,
+            author: "Sara Kim",
+            content: "Hope it lasts!",
+            image: "https://example.com/user2.jpg",
+            voteType: "not-fake",
+            commentDateTime: new Date("2025-08-15T09:15:00Z")
+          }
+        ]
       },
       {
-        id: Date.now() + 1,
-        newsId: 1,
-        author: "Sara Kim",
-        content: "Hope it lasts!",
-        image: "https://example.com/user2.jpg",
-        voteType: "not-fake",
-        commentDateTime: new Date("2025-08-15T09:15:00Z")
-      }
-    ]
-  },
-  {
-    id: 2,
-    title: "Breakthrough in Renewable Energy Technology",
-    category: "Technology",
-    reporter: "John Smith",
-    newsDateTime: new Date("2025-08-14T14:20:00Z"),
-    description: "New solar panels reach record efficiency levels.",
-    content: "Researchers announced a new type of solar panel...",
-    image: "https://example.com/news2.jpg",
-    fakeCount: 1,
-    notFakeCount: 8,
-    comments: []
-  },
-  {
-    id: 3,
-    title: "Historic Peace Agreement Signed",
-    category: "World",
-    reporter: "Emma Davis",
-    newsDateTime: new Date("2025-08-13T10:00:00Z"),
-    description: "Two nations agree to long-standing peace deal.",
-    content: "After months of negotiations, the leaders signed...",
-    image: "https://example.com/news3.jpg",
-    fakeCount: 0,
-    notFakeCount: 12,
-    comments: [
+        id: 2,
+        title: "Breakthrough in Renewable Energy Technology",
+        category: "Technology",
+        reporter: "John Smith",
+        newsDateTime: new Date("2025-08-14T14:20:00Z"),
+        description: "New solar panels reach record efficiency levels.",
+        content: "Researchers announced a new type of solar panel...",
+        image: "https://example.com/news2.jpg",
+        fakeCount: 1,
+        notFakeCount: 8,
+        comments: []
+      },
       {
-        id: Date.now() + 2,
-        newsId: 3,
-        author: "Ahmed Khan",
-        content: "Finally some good news!",
-        image: "https://example.com/user3.jpg",
-        voteType: "not-fake",
-        commentDateTime: new Date("2025-08-13T10:30:00Z")
-      }
-    ]
-  },
-  {
-    id: 4,
-    title: "New Art Exhibition Opens Downtown",
-    category: "Culture",
-    reporter: "Olivia Brown",
-    newsDateTime: new Date("2025-08-12T16:45:00Z"),
-    description: "Local artists showcase contemporary works.",
-    content: "The downtown art gallery opened its doors to visitors...",
-    image: "https://example.com/news4.jpg",
-    fakeCount: 0,
-    notFakeCount: 5,
-    comments: []
-  },
-  {
-    id: 5,
-    title: "Severe Weather Warning Issued for Coastal Areas",
-    category: "Weather",
-    reporter: "Liam Wilson",
-    newsDateTime: new Date("2025-08-11T06:10:00Z"),
-    description: "Residents advised to stay indoors as storms approach.",
-    content: "Meteorologists have issued warnings for strong winds...",
-    image: "https://example.com/news5.jpg",
-    fakeCount: 3,
-    notFakeCount: 10,
-    comments: [
+        id: 3,
+        title: "Historic Peace Agreement Signed",
+        category: "World",
+        reporter: "Emma Davis",
+        newsDateTime: new Date("2025-08-13T10:00:00Z"),
+        description: "Two nations agree to long-standing peace deal.",
+        content: "After months of negotiations, the leaders signed...",
+        image: "https://example.com/news3.jpg",
+        fakeCount: 0,
+        notFakeCount: 12,
+        comments: [
+          {
+            id: Date.now() + 2,
+            newsId: 3,
+            author: "Ahmed Khan",
+            content: "Finally some good news!",
+            image: "https://example.com/user3.jpg",
+            voteType: "not-fake",
+            commentDateTime: new Date("2025-08-13T10:30:00Z")
+          }
+        ]
+      },
       {
-        id: Date.now() + 3,
-        newsId: 5,
-        author: "Nina Lopez",
-        content: "Stay safe everyone!",
-        image: "https://example.com/user4.jpg",
-        voteType: "not-fake",
-        commentDateTime: new Date("2025-08-11T06:30:00Z")
-      }
-    ]
-  },
-  {
-    id: 6,
-    title: "Major Advances in AI Research Announced",
-    category: "Technology",
-    reporter: "Sophia Martinez",
-    newsDateTime: new Date("2025-08-10T12:50:00Z"),
-    description: "AI can now generate realistic 3D models from images.",
-    content: "A team of researchers revealed an AI capable of producing...",
-    image: "https://example.com/news6.jpg",
-    fakeCount: 0,
-    notFakeCount: 20,
-    comments: []
-  },
-  {
-    id: 7,
-    title: "City Council Approves New Public Park",
-    category: "Local",
-    reporter: "Ethan Clark",
-    newsDateTime: new Date("2025-08-09T09:40:00Z"),
-    description: "Green space to be added near downtown.",
-    content: "City officials voted in favor of a new urban park...",
-    image: "https://example.com/news7.jpg",
-    fakeCount: 0,
-    notFakeCount: 7,
-    comments: []
-  },
-  {
-    id: 8,
-    title: "Health Officials Announce New Vaccination Campaign",
-    category: "Health",
-    reporter: "Isabella Lewis",
-    newsDateTime: new Date("2025-08-08T11:25:00Z"),
-    description: "Free vaccines available for children under 12.",
-    content: "The Ministry of Health launched a nationwide vaccination...",
-    image: "https://example.com/news8.jpg",
-    fakeCount: 1,
-    notFakeCount: 18,
-    comments: [
+        id: 4,
+        title: "New Art Exhibition Opens Downtown",
+        category: "Culture",
+        reporter: "Olivia Brown",
+        newsDateTime: new Date("2025-08-12T16:45:00Z"),
+        description: "Local artists showcase contemporary works.",
+        content: "The downtown art gallery opened its doors to visitors...",
+        image: "https://example.com/news4.jpg",
+        fakeCount: 0,
+        notFakeCount: 5,
+        comments: []
+      },
       {
-        id: Date.now() + 4,
-        newsId: 8,
-        author: "Tom Nguyen",
-        content: "Good initiative!",
-        image: "https://example.com/user5.jpg",
-        voteType: "not-fake",
-        commentDateTime: new Date("2025-08-08T11:45:00Z")
+        id: 5,
+        title: "Severe Weather Warning Issued for Coastal Areas",
+        category: "Weather",
+        reporter: "Liam Wilson",
+        newsDateTime: new Date("2025-08-11T06:10:00Z"),
+        description: "Residents advised to stay indoors as storms approach.",
+        content: "Meteorologists have issued warnings for strong winds...",
+        image: "https://example.com/news5.jpg",
+        fakeCount: 3,
+        notFakeCount: 10,
+        comments: [
+          {
+            id: Date.now() + 3,
+            newsId: 5,
+            author: "Nina Lopez",
+            content: "Stay safe everyone!",
+            image: "https://example.com/user4.jpg",
+            voteType: "not-fake",
+            commentDateTime: new Date("2025-08-11T06:30:00Z")
+          }
+        ]
+      },
+      {
+        id: 6,
+        title: "Major Advances in AI Research Announced",
+        category: "Technology",
+        reporter: "Sophia Martinez",
+        newsDateTime: new Date("2025-08-10T12:50:00Z"),
+        description: "AI can now generate realistic 3D models from images.",
+        content: "A team of researchers revealed an AI capable of producing...",
+        image: "https://example.com/news6.jpg",
+        fakeCount: 0,
+        notFakeCount: 20,
+        comments: []
+      },
+      {
+        id: 7,
+        title: "City Council Approves New Public Park",
+        category: "Local",
+        reporter: "Ethan Clark",
+        newsDateTime: new Date("2025-08-09T09:40:00Z"),
+        description: "Green space to be added near downtown.",
+        content: "City officials voted in favor of a new urban park...",
+        image: "https://example.com/news7.jpg",
+        fakeCount: 0,
+        notFakeCount: 7,
+        comments: []
+      },
+      {
+        id: 8,
+        title: "Health Officials Announce New Vaccination Campaign",
+        category: "Health",
+        reporter: "Isabella Lewis",
+        newsDateTime: new Date("2025-08-08T11:25:00Z"),
+        description: "Free vaccines available for children under 12.",
+        content: "The Ministry of Health launched a nationwide vaccination...",
+        image: "https://example.com/news8.jpg",
+        fakeCount: 1,
+        notFakeCount: 18,
+        comments: [
+          {
+            id: Date.now() + 4,
+            newsId: 8,
+            author: "Tom Nguyen",
+            content: "Good initiative!",
+            image: "https://example.com/user5.jpg",
+            voteType: "not-fake",
+            commentDateTime: new Date("2025-08-08T11:45:00Z")
+          }
+        ]
+      },
+      {
+        id: 9,
+        title: "Local Sports Team Wins Championship",
+        category: "Sports",
+        reporter: "Mia Robinson",
+        newsDateTime: new Date("2025-08-07T18:15:00Z"),
+        description: "Fans celebrate victory in downtown parade.",
+        content: "The local team clinched the championship after a thrilling game...",
+        image: "https://example.com/news9.jpg",
+        fakeCount: 0,
+        notFakeCount: 25,
+        comments: []
+      },
+      {
+        id: 10,
+        title: "New Restaurant Opens with Innovative Menu",
+        category: "Food",
+        reporter: "James Hall",
+        newsDateTime: new Date("2025-08-06T13:05:00Z"),
+        description: "Fusion cuisine blends flavors from around the world.",
+        content: "A new restaurant downtown is attracting attention for its unique dishes...",
+        image: "https://example.com/news10.jpg",
+        fakeCount: 0,
+        notFakeCount: 6,
+        comments: []
       }
     ]
-  },
-  {
-    id: 9,
-    title: "Local Sports Team Wins Championship",
-    category: "Sports",
-    reporter: "Mia Robinson",
-    newsDateTime: new Date("2025-08-07T18:15:00Z"),
-    description: "Fans celebrate victory in downtown parade.",
-    content: "The local team clinched the championship after a thrilling game...",
-    image: "https://example.com/news9.jpg",
-    fakeCount: 0,
-    notFakeCount: 25,
-    comments: []
-  },
-  {
-    id: 10,
-    title: "New Restaurant Opens with Innovative Menu",
-    category: "Food",
-    reporter: "James Hall",
-    newsDateTime: new Date("2025-08-06T13:05:00Z"),
-    description: "Fusion cuisine blends flavors from around the world.",
-    content: "A new restaurant downtown is attracting attention for its unique dishes...",
-    image: "https://example.com/news10.jpg",
-    fakeCount: 0,
-    notFakeCount: 6,
-    comments: []
-  }
+}
