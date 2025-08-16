@@ -162,20 +162,6 @@
       ]
     },
     {
-      "id": 9,
-      "title": "New Gaming Console Announced",
-      "category": "Entertainment",
-      "reporter": "Daniel Scott",
-      "newsDateTime": "2025-08-16T09:00:00Z",
-      "description": "Next-gen console set to release this winter.",
-      "content": "The new console boasts 8K graphics, ultra-fast loading times, and support for immersive VR experiences.",
-      "image": "https://picsum.photos/id/1027/600/400.jpg",
-      "fakeCount": 2,
-      "notFakeCount": 80,
-      "voteType": "not-fake",
-      "comments": []
-    },
-    {
       "id": 10,
       "title": "World Leaders Meet for Climate Summit",
       "category": "Politics",
