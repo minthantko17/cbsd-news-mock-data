@@ -17,7 +17,6 @@
           "newsId": 1,
           "author": "John Doe",
           "content": "This is amazing! AI is really changing healthcare.",
-          "image": "https://picsum.photos/id/1005/50/50",
           "voteType": "not-fake",
           "commentDateTime": "2025-08-10T10:00:00Z"
         },
@@ -26,7 +25,6 @@
           "newsId": 1,
           "author": "Jane Smith",
           "content": "We need to be cautious though. AI should support doctors, not replace them.",
-          "image": "https://picsum.photos/id/1011/50/50",
           "voteType": "fake",
           "commentDateTime": "2025-08-10T10:15:00Z"
         }
@@ -66,7 +64,6 @@
       "newsDateTime": "2025-08-07T11:45:00Z",
       "description": "Quantum processor achieves milestone in computation speed.",
       "content": "A new quantum chip surpassed traditional supercomputers in solving complex problems...",
-      "image": "https://picsum.photos/id/1040/600/400",
       "fakeCount": 3,
       "notFakeCount": 30,
       "voteType": "not-fake",
