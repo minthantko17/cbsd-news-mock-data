@@ -3,16 +3,6 @@
     {
       "id": 1,
       "title": "Tech Conference 2025 Opens in Bangkok",
-      "category": "Technology",
-      "reporter": "Alice Johnson",
-      "newsDateTime": "2025-08-10T10:00:00Z",
-      "description": "The biggest tech event of the year kicks off.",
-      "content": "The Bangkok International Tech Conference 2025 opened today with thousands of attendees from around the world. Keynote speakers discussed the future of AI, blockchain, and green technologies.",
-      "fakeCount": 2,
-      "notFakeCount": 50,
-      "voteType": "not-fake",
-      "comments": [
-      ]
     },
   ]
 }
