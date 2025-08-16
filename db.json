@@ -2,54 +2,213 @@
   "news": [
     {
       "id": 1,
-      "title": "AI Breakthrough in Medicine",
-      "category": "Technology",
+      "title": "New Renewable Energy Plant Opens",
+      "category": "Environment",
       "reporter": "Alice Johnson",
       "newsDateTime": "2025-08-10T09:30:00Z",
-      "description": "Researchers have developed an AI that diagnoses rare diseases.",
-      "content": "A team of scientists announced today that a new AI system can identify over 200 rare diseases with high accuracy...",
-      "image": "https://picsum.photos/id/1015/600/400",
+      "description": "A new solar power plant was inaugurated today.",
+      "content": "The government opened the largest solar power plant in the region, expected to generate 200MW of clean energy annually.",
+      "image": "https://picsum.photos/seed/news1/800/400",
       "fakeCount": 2,
-      "notFakeCount": 25,
+      "notFakeCount": 15,
       "voteType": "not-fake",
       "comments": [
         {
           "id": 1,
           "newsId": 1,
           "author": "John Doe",
-          "content": "This is amazing! AI is really changing healthcare.",
-          "image": "https://picsum.photos/id/1005/50/50",
+          "content": "This is great news for the environment!",
+          "image": "https://i.pravatar.cc/150?img=1",
           "voteType": "not-fake",
           "commentDateTime": "2025-08-10T10:00:00Z"
-        },
-        {
-          "id": 2,
-          "newsId": 1,
-          "author": "Jane Smith",
-          "content": "We need to be cautious though. AI should support doctors, not replace them.",
-          "image": "https://picsum.photos/id/1011/50/50",
-          "voteType": "fake",
-          "commentDateTime": "2025-08-10T10:15:00Z"
         }
       ]
     },
     {
       "id": 2,
-      "title": "New Policy on Renewable Energy",
-      "category": "Environment",
-      "reporter": "Michael Green",
-      "newsDateTime": "2025-08-09T14:00:00Z",
-      "description": "Government announces a 10-year renewable energy roadmap.",
-      "content": "The government unveiled a long-term plan to shift 60% of national energy consumption to renewable sources...",
-      "image": "https://picsum.photos/id/1020/600/400",
-      "fakeCount": 5,
+      "title": "Tech Giant Releases New Smartphone",
+      "category": "Technology",
+      "reporter": "Mark Spencer",
+      "newsDateTime": "2025-08-11T14:00:00Z",
+      "description": "The latest smartphone has advanced AI features.",
+      "content": "The device boasts a foldable screen, improved battery life, and AI-powered camera.",
+      "image": "https://picsum.photos/seed/news2/800/400",
+      "fakeCount": 1,
+      "notFakeCount": 10,
+      "voteType": "not-fake",
+      "comments": [
+        {
+          "id": 2,
+          "newsId": 2,
+          "author": "Jane Smith",
+          "content": "Looks amazing, but the price is too high.",
+          "image": "https://i.pravatar.cc/150?img=2",
+          "voteType": "not-fake",
+          "commentDateTime": "2025-08-11T14:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Local Bakery Wins Award",
+      "category": "Lifestyle",
+      "reporter": "Emily Chen",
+      "newsDateTime": "2025-08-12T08:45:00Z",
+      "description": "A small bakery received a national award for best pastries.",
+      "content": "The family-owned bakery has been operating for over 30 years and is known for its croissants.",
+      "image": "https://picsum.photos/seed/news3/800/400",
+      "fakeCount": 0,
+      "notFakeCount": 20,
+      "voteType": "not-fake",
+      "comments": []
+    },
+    {
+      "id": 4,
+      "title": "Scientists Discover New Exoplanet",
+      "category": "Science",
+      "reporter": "Dr. Samuel Lee",
+      "newsDateTime": "2025-08-09T22:00:00Z",
+      "description": "Astronomers discovered a planet similar to Earth.",
+      "content": "The exoplanet is located 300 light years away and may have conditions for life.",
+      "image": "https://picsum.photos/seed/news4/800/400",
+      "fakeCount": 3,
+      "notFakeCount": 25,
+      "voteType": "not-fake",
+      "comments": [
+        {
+          "id": 3,
+          "newsId": 4,
+          "author": "SpaceFan99",
+          "content": "Amazing discovery! Hope we can study it more.",
+          "image": "https://i.pravatar.cc/150?img=3",
+          "voteType": "not-fake",
+          "commentDateTime": "2025-08-10T01:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Celebrity Announces Retirement",
+      "category": "Entertainment",
+      "reporter": "Rachel Kim",
+      "newsDateTime": "2025-08-08T18:00:00Z",
+      "description": "A famous actor announced retirement after 40 years.",
+      "content": "The actor thanked fans and colleagues, planning to spend more time with family.",
+      "image": "https://picsum.photos/seed/news5/800/400",
+      "fakeCount": 0,
+      "notFakeCount": 30,
+      "voteType": "not-fake",
+      "comments": [
+        {
+          "id": 4,
+          "newsId": 5,
+          "author": "MovieBuff",
+          "content": "End of an era. Wishing them the best!",
+          "image": "https://i.pravatar.cc/150?img=4",
+          "voteType": "not-fake",
+          "commentDateTime": "2025-08-08T19:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Fake Cure for Cancer Circulating Online",
+      "category": "Health",
+      "reporter": "Michael Brown",
+      "newsDateTime": "2025-08-13T12:00:00Z",
+      "description": "Authorities warn about a viral fake cure.",
+      "content": "Health experts urge the public not to trust unverified cancer cure claims spreading on social media.",
+      "image": "https://picsum.photos/seed/news6/800/400",
+      "fakeCount": 50,
+      "notFakeCount": 5,
+      "voteType": "fake",
+      "comments": [
+        {
+          "id": 5,
+          "newsId": 6,
+          "author": "HealthExpert",
+          "content": "This is misinformation. Please consult doctors.",
+          "image": "https://i.pravatar.cc/150?img=5",
+          "voteType": "fake",
+          "commentDateTime": "2025-08-13T13:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Stock Market Hits Record High",
+      "category": "Economy",
+      "reporter": "Laura White",
+      "newsDateTime": "2025-08-14T09:00:00Z",
+      "description": "Markets surged after new trade agreements.",
+      "content": "The global stock market saw a record increase due to positive economic outlook.",
+      "image": "https://picsum.photos/seed/news7/800/400",
+      "fakeCount": 2,
       "notFakeCount": 40,
       "voteType": "not-fake",
       "comments": []
     },
     {
-      "id": 3,
-      "title": "Celebrity Launches New Charity",
-      "category": "Lifestyle",
-      "reporter": "Sarah Lee",
-      "newsDateTime": "2025-08-08T18:20:00Z",
+      "id": 8,
+      "title": "City Introduces Smart Traffic Lights",
+      "category": "Technology",
+      "reporter": "David Green",
+      "newsDateTime": "2025-08-15T16:30:00Z",
+      "description": "AI-powered traffic lights reduce congestion.",
+      "content": "Smart traffic management system cuts average commute times by 20%.",
+      "image": "https://picsum.photos/seed/news8/800/400",
+      "fakeCount": 0,
+      "notFakeCount": 18,
+      "voteType": "not-fake",
+      "comments": []
+    },
+    {
+      "id": 9,
+      "title": "Fake Celebrity Death Rumor",
+      "category": "Entertainment",
+      "reporter": "Chris Evans",
+      "newsDateTime": "2025-08-07T20:00:00Z",
+      "description": "A fake rumor spread online claiming a celebrity died.",
+      "content": "The celebrity confirmed they are alive and well on social media.",
+      "image": "https://picsum.photos/seed/news9/800/400",
+      "fakeCount": 60,
+      "notFakeCount": 3,
+      "voteType": "fake",
+      "comments": [
+        {
+          "id": 6,
+          "newsId": 9,
+          "author": "Fan123",
+          "content": "I almost believed this! Glad it's fake.",
+          "image": "https://i.pravatar.cc/150?img=6",
+          "voteType": "fake",
+          "commentDateTime": "2025-08-07T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Local Sports Team Wins Championship",
+      "category": "Sports",
+      "reporter": "Kevin Scott",
+      "newsDateTime": "2025-08-06T23:00:00Z",
+      "description": "The team secured the championship after a thrilling final.",
+      "content": "Fans celebrated in the streets after the victory, marking the first win in 20 years.",
+      "image": "https://picsum.photos/seed/news10/800/400",
+      "fakeCount": 0,
+      "notFakeCount": 50,
+      "voteType": "not-fake",
+      "comments": [
+        {
+          "id": 7,
+          "newsId": 10,
+          "author": "SportsFan",
+          "content": "What a game! Congratulations to the team.",
+          "image": "https://i.pravatar.cc/150?img=7",
+          "voteType": "not-fake",
+          "commentDateTime": "2025-08-06T23:30:00Z"
+        }
+      ]
+    }
+  ]
+}
