@@ -2,182 +2,54 @@
   "news": [
     {
       "id": 1,
-      "title": "Global Markets Rally Amid Economic Optimism",
-      "category": "Finance",
+      "title": "AI Breakthrough in Medicine",
+      "category": "Technology",
       "reporter": "Alice Johnson",
-      "newsDateTime": "2025-08-15T08:30:00Z",
-      "description": "Stocks rise globally on strong economic indicators.",
-      "content": "The global stock market experienced a significant rally today...",
-      "image": "https://i.pinimg.com/736x/8c/e8/fa/8ce8faa179d16630e687700942cf2d48.jpg",
+      "newsDateTime": "2025-08-10T09:30:00Z",
+      "description": "Researchers have developed an AI that diagnoses rare diseases.",
+      "content": "A team of scientists announced today that a new AI system can identify over 200 rare diseases with high accuracy...",
+      "image": "https://picsum.photos/id/1015/600/400",
       "fakeCount": 2,
-      "notFakeCount": 15,
+      "notFakeCount": 25,
+      "voteType": "not-fake",
       "comments": [
         {
-          "id": 101,
+          "id": 1,
           "newsId": 1,
-          "author": "Mark Lee",
-          "content": "Good news for investors!",
-          "image": "https://example.com/user1.jpg",
+          "author": "John Doe",
+          "content": "This is amazing! AI is really changing healthcare.",
+          "image": "https://picsum.photos/id/1005/50/50",
           "voteType": "not-fake",
-          "commentDateTime": "2025-08-15T09:00:00Z"
+          "commentDateTime": "2025-08-10T10:00:00Z"
         },
         {
-          "id": 102,
+          "id": 2,
           "newsId": 1,
-          "author": "Sara Kim",
-          "content": "Hope it lasts!",
-          "image": "https://example.com/user2.jpg",
-          "voteType": "not-fake",
-          "commentDateTime": "2025-08-15T09:15:00Z"
+          "author": "Jane Smith",
+          "content": "We need to be cautious though. AI should support doctors, not replace them.",
+          "image": "https://picsum.photos/id/1011/50/50",
+          "voteType": "fake",
+          "commentDateTime": "2025-08-10T10:15:00Z"
         }
       ]
     },
     {
       "id": 2,
-      "title": "Breakthrough in Renewable Energy Technology",
-      "category": "Technology",
-      "reporter": "John Smith",
-      "newsDateTime": "2025-08-14T14:20:00Z",
-      "description": "New solar panels reach record efficiency levels.",
-      "content": "Researchers announced a new type of solar panel...",
-      "image": "https://example.com/news2.jpg",
-      "fakeCount": 1,
-      "notFakeCount": 8,
+      "title": "New Policy on Renewable Energy",
+      "category": "Environment",
+      "reporter": "Michael Green",
+      "newsDateTime": "2025-08-09T14:00:00Z",
+      "description": "Government announces a 10-year renewable energy roadmap.",
+      "content": "The government unveiled a long-term plan to shift 60% of national energy consumption to renewable sources...",
+      "image": "https://picsum.photos/id/1020/600/400",
+      "fakeCount": 5,
+      "notFakeCount": 40,
+      "voteType": "not-fake",
       "comments": []
     },
     {
       "id": 3,
-      "title": "Historic Peace Agreement Signed",
-      "category": "World",
-      "reporter": "Emma Davis",
-      "newsDateTime": "2025-08-13T10:00:00Z",
-      "description": "Two nations agree to long-standing peace deal.",
-      "content": "After months of negotiations, the leaders signed...",
-      "image": "https://example.com/news3.jpg",
-      "fakeCount": 0,
-      "notFakeCount": 12,
-      "comments": [
-        {
-          "id": 103,
-          "newsId": 3,
-          "author": "Ahmed Khan",
-          "content": "Finally some good news!",
-          "image": "https://example.com/user3.jpg",
-          "voteType": "not-fake",
-          "commentDateTime": "2025-08-13T10:30:00Z"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "title": "New Art Exhibition Opens Downtown",
-      "category": "Culture",
-      "reporter": "Olivia Brown",
-      "newsDateTime": "2025-08-12T16:45:00Z",
-      "description": "Local artists showcase contemporary works.",
-      "content": "The downtown art gallery opened its doors to visitors...",
-      "image": "https://example.com/news4.jpg",
-      "fakeCount": 0,
-      "notFakeCount": 5,
-      "comments": []
-    },
-    {
-      "id": 5,
-      "title": "Severe Weather Warning Issued for Coastal Areas",
-      "category": "Weather",
-      "reporter": "Liam Wilson",
-      "newsDateTime": "2025-08-11T06:10:00Z",
-      "description": "Residents advised to stay indoors as storms approach.",
-      "content": "Meteorologists have issued warnings for strong winds...",
-      "image": "https://example.com/news5.jpg",
-      "fakeCount": 3,
-      "notFakeCount": 10,
-      "comments": [
-        {
-          "id": 104,
-          "newsId": 5,
-          "author": "Nina Lopez",
-          "content": "Stay safe everyone!",
-          "image": "https://example.com/user4.jpg",
-          "voteType": "not-fake",
-          "commentDateTime": "2025-08-11T06:30:00Z"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "title": "Major Advances in AI Research Announced",
-      "category": "Technology",
-      "reporter": "Sophia Martinez",
-      "newsDateTime": "2025-08-10T12:50:00Z",
-      "description": "AI can now generate realistic 3D models from images.",
-      "content": "A team of researchers revealed an AI capable of producing...",
-      "image": "https://example.com/news6.jpg",
-      "fakeCount": 0,
-      "notFakeCount": 20,
-      "comments": []
-    },
-    {
-      "id": 7,
-      "title": "City Council Approves New Public Park",
-      "category": "Local",
-      "reporter": "Ethan Clark",
-      "newsDateTime": "2025-08-09T09:40:00Z",
-      "description": "Green space to be added near downtown.",
-      "content": "City officials voted in favor of a new urban park...",
-      "image": "https://example.com/news7.jpg",
-      "fakeCount": 0,
-      "notFakeCount": 7,
-      "comments": []
-    },
-    {
-      "id": 8,
-      "title": "Health Officials Announce New Vaccination Campaign",
-      "category": "Health",
-      "reporter": "Isabella Lewis",
-      "newsDateTime": "2025-08-08T11:25:00Z",
-      "description": "Free vaccines available for children under 12.",
-      "content": "The Ministry of Health launched a nationwide vaccination...",
-      "image": "https://example.com/news8.jpg",
-      "fakeCount": 1,
-      "notFakeCount": 18,
-      "comments": [
-        {
-          "id": 105,
-          "newsId": 8,
-          "author": "Tom Nguyen",
-          "content": "Good initiative!",
-          "image": "https://example.com/user5.jpg",
-          "voteType": "not-fake",
-          "commentDateTime": "2025-08-08T11:45:00Z"
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "title": "Local Sports Team Wins Championship",
-      "category": "Sports",
-      "reporter": "Mia Robinson",
-      "newsDateTime": "2025-08-07T18:15:00Z",
-      "description": "Fans celebrate victory in downtown parade.",
-      "content": "The local team clinched the championship after a thrilling game...",
-      "image": "https://example.com/news9.jpg",
-      "fakeCount": 0,
-      "notFakeCount": 25,
-      "comments": []
-    },
-    {
-      "id": 10,
-      "title": "New Restaurant Opens with Innovative Menu",
-      "category": "Food",
-      "reporter": "James Hall",
-      "newsDateTime": "2025-08-06T13:05:00Z",
-      "description": "Fusion cuisine blends flavors from around the world.",
-      "content": "A new restaurant downtown is attracting attention for its unique dishes...",
-      "image": "https://example.com/news10.jpg",
-      "fakeCount": 0,
-      "notFakeCount": 6,
-      "comments": []
-    }
-  ]
-}
+      "title": "Celebrity Launches New Charity",
+      "category": "Lifestyle",
+      "reporter": "Sarah Lee",
+      "newsDateTime": "2025-08-08T18:20:00Z",
