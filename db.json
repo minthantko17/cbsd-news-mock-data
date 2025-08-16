@@ -13,24 +13,6 @@
       "notFakeCount": 50,
       "voteType": "not-fake",
       "comments": [
-        {
-          "id": 101,
-          "newsId": 1,
-          "author": "John Doe",
-          "content": "This event sounds amazing!",
-          "image": "https://picsum.photos/id/1005/100/100.jpg",
-          "voteType": "not-fake",
-          "commentDateTime": "2025-08-10T12:30:00Z"
-        },
-        {
-          "id": 102,
-          "newsId": 1,
-          "author": "Jane Smith",
-          "content": "I wish I could attend!",
-          "image": "https://picsum.photos/id/1006/100/100.jpg",
-          "voteType": "not-fake",
-          "commentDateTime": "2025-08-10T13:00:00Z"
-        }
       ]
     },
   ]
